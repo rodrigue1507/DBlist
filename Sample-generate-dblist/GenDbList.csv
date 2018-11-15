@@ -1,0 +1,9 @@
+Folder;DatabaseCode;FD;FR;BE;CH;ES;PT;;
+PREVIEW_FRONT_REF;FRONT_REF;x;;;;x;x;;
+CUSTOMER;CUSTOMER;;x;x;x;x;x;;
+ES_CUSTOMER;CUSTOMER;;;;;x;;;
+ERROR1;CUSTOMER;x;;;;;;;Dossier inconnu => erreur
+ERROR3;ERROR3;x;x;x;x;x;x;;DatabaseCode inconnu => erreur
+ERROR4;FRONT_REF;;x;;;;;;Pas de lignes en FR pour FRONT_REF => erreur
+ERROR5;FRONT_REF;;;;;;;;Deux foix le mˆme dossier => ERREUR
+ERROR5;CUSTOMER;;;;;;;;Deux foix le mˆme dossier => ERREUR
